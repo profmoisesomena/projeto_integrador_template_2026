@@ -1,18 +1,28 @@
 # Sprint Planning - Sprint 01
 
 **Data:** 12/02/2026  
-**Participantes:** Moises (Product Owner), AI Assistant (Development Team)  
+**Participantes:** Moises (Product Owner),(Development Team)  
 **Sprint Duration:** 2 semanas (10 dias úteis)  
-**Sprint Goal:** Criar documentação fundamental que permita adoção efetiva dos templates Agile AI
-
+**Sprint Goal:** Criar documentação fundamental que permita desenvolvimento do projeto
 ---
 
 ## 📊 Sprint Capacity
 
 - **Velocity anterior:** N/A (primeira sprint)
-- **Capacidade estimada:** 16 pontos
-- **Dias úteis disponíveis:** 10 dias
-- **Impedimentos conhecidos:** Nenhum conhecido no momento
+- **Capacidade estimada:** 17,5h pontos
+- **Dias úteis disponíveis:** 5 dias
+- **Impedimentos conhecidos:** Nenhum conhecido no momento / Alinhar padrão visual antes de seguir / Dependência de validação externa
+
+- Cálculo da velocidade estimada:
+  -  Capacidade por horas → converte para pontos
+    -   Horas disponíveis = (dias úteis) × (horas/dia) × (nº pessoas) × (fator de foco)
+    -   Exemplo de dados de entrada:  
+        - Dias úteis: 5
+        - Horas/dia: depende do seu time (2,5 horas)
+        -  Fator de foco: 0,7 (desconta reuniões, interrupções, revisão, retrabalho)
+    -  Exemplo de cálculo: se a equipe trabalha 2,5h/dia equivalente por 10 dias):
+        - Horas brutas = 5 × 2,5 × 2 = 25h (num exemplo de 2 pessoas no time)
+        - Horas efetivas (foco 0,7) = 25 × 0,7 = 17,5h
 
 ---
 
@@ -24,22 +34,20 @@
 
 ## 📋 User Stories Selecionadas
 
-### [US-001] Criar guia de quick start interativo
+### [US-001] Criar documentação de quick start do projeto
 - **Prioridade:** Alta
 - **Story Points:** 5
-- **Assignee:** AI Team
+- **Assignee:** Time de Desenvolvimento
 - **Epic:** EPIC-001 - Documentação e Guias de Uso
 - **Critérios de Aceitação:**
-  - [ ] Guia cobre instalação e setup inicial
-  - [ ] Inclui primeiro exemplo hands-on em menos de 5 minutos
-  - [ ] Demonstra uso de pelo menos 2 workflows diferentes
-  - [ ] Possui links para documentação detalhada
-  - [ ] Testado por usuário novo no projeto
-  - [ ] Formatado de forma visualmente atraente com emojis e seções claras
+  - [ ] Guia cobre instalação e setup inicial para desenvolvimento (Softwares e ferramentas necessários)
+  - [ ] Inclui primeiro exemplo de fluxo de telas principal (workflow)
+  - [ ] Possui links para documentação detalhada e no Readme do projeto
+  - [ ] Adição de todos usuários no repositório projeto e no kanban de acompanhamento
+  - [ ] Formatação visualmente organizada e seções claras
 
 **Notas técnicas:**
 - Deve ser o ponto de entrada principal no README
-- Considerar adicionar badges de status e links rápidos
 - Incluir comandos copy-paste para agilizar
 
 ---
@@ -47,17 +55,13 @@
 ### [US-002] Documentar workflows com exemplos práticos
 - **Prioridade:** Alta
 - **Story Points:** 8
-- **Assignee:** AI Team
-- **Epic:** EPIC-001 - Documentação e Guias de Uso
+- **Assignee:** Time de desenvolvimento
+- **Epic:** EPIC-001 - Documentação de cada workflow
 - **Critérios de Aceitação:**
-  - [ ] Cada workflow tem seção dedicada com descrição clara
-  - [ ] Pelo menos 2 exemplos práticos por workflow
-  - [ ] Prompts de IA sugeridos documentados
-  - [ ] Screenshots ou diagramas onde apropriado
-  - [ ] Casos de uso comuns cobertos
-  - [ ] Troubleshooting section para cada workflow
-  - [ ] Links para templates relacionados
-  - [ ] Exemplos mostram input e output esperado
+  - [ ] Screenshots das telas em sequencia apropriada
+  - [ ] Use de arquivos do tipo .md para criar e explicar o fluxo adicionando as imagens
+  - [ ] Links para templates, figma e documentos relacionados ao fluxo específico
+  - [ ] Exemplos mostram possíveis problemas no fluxo esperado (falta de validação dos dados, usuário escolha o fluxo de páginas acessadas, etc)
 
 **Notas técnicas:**
 - Criar um documento separado para cada workflow principal
@@ -69,24 +73,20 @@
 
 ---
 
-### [US-007] Criar template de Bug Report
-- **Prioridade:** Alta (para completar conjunto básico)
+### [US-007] Revisar e atualizar backlog do projeto para desenvolvimento
+- **Prioridade:** Alta 
 - **Story Points:** 3
-- **Assignee:** AI Team
+- **Assignee:** Time de desenvolvimento
 - **Epic:** EPIC-002 - Templates Avançados
 - **Critérios de Aceitação:**
-  - [ ] Template segue mesmo padrão visual dos outros
-  - [ ] Inclui seções: descrição, steps to reproduce, expected vs actual
-  - [ ] Campo para prioridade e severidade
-  - [ ] Seção para environment/context
-  - [ ] Checklist para anexar logs, screenshots
-  - [ ] Exemplo preenchido em /examples/
-  - [ ] Referenciado no README principal
+  - [ ] Reavaliar documentação de backlog
+  - [ ] Incluir no Kanban do GitHub no campo de backlog as atividades necessarias para o sprint atual
+  - [ ] Campo para História de usuário, prioridade/Moscow
+  - [ ] Checklist para verificar disponibilidade de softwares/ferramentas para o desenvolvimento
+  - [ ] Atribuir cada tarefa a um membro da equipe (obrigatório)
 
 **Notas técnicas:**
 - Manter simples e direto
-- Compatível com export para GitHub Issues
-- Incluir seção para root cause analysis (opcional)
 
 ---
 
@@ -99,11 +99,11 @@
 - [ ] Código revisado (peer review ou auto-review com IA)
 - [ ] Documentação atualizada (README, índices)
 - [ ] Exemplos funcionais criados e testados
-- [ ] Markdown formatado corretamente (sem erros de lint)
+- [ ] Markdown formatado corretamente (sem erros)
 - [ ] Links internos verificados (não quebrados)
-- [ ] Testado por pelo menos 1 pessoa seguindo as instruções
+- [ ] Testado por pelo menos 1 pessoa da equipe seguindo as instruções
 - [ ] Commitado no repositório com mensagem descritiva
-- [ ] Validação do Product Owner
+- [ ] Validação do Professor
 
 ---
 
@@ -111,14 +111,11 @@
 
 | Risco/Dependência | Impacto | Mitigação | Responsável |
 |-------------------|---------|-----------|-------------|
-| Exemplos podem não ser claros o suficiente para iniciantes | Alto | Pedir feedback de usuário novo no projeto antes de finalizar | AI Team |
-| Documentação muito extensa pode intimidar | Médio | Separar em quick start (curto) e guia detalhado (completo) | AI Team |
-| Template de bug report pode precisar campos específicos por projeto | Baixo | Manter template genérico com seção de customização sugerida | AI Team |
-| Dependência de validação externa (usuário teste) | Médio | Identificar voluntário logo no início da sprint | Product Owner |
+| Documentação muito extensa pode exigir muito tempo | Médio | Separar em detalhamento (curto) e guia detalhado (completo somente se necesário) |Time de desenvolvimento |
 
 **Dependências entre stories:**
 - US-001 deve referenciar US-002 (documentação detalhada)
-- Todas as stories devem atualizar README principal de forma coordenada
+- Todas as stories devem atualizar README principal de forma a verificarmos o andamento do projeto
 
 ---
 
@@ -141,44 +138,11 @@
 
 ---
 
-## 🤖 Assistência IA Utilizada
+## 🤖 Assistência IA (opcional)
 
-- [x] Refinamento de user stories (critérios de aceitação gerados com IA)
+- [x] Refinamento de user stories (critérios de aceitação validados com IA)
 - [x] Estimativa de complexidade (validada com IA)
 - [x] Identificação de riscos técnicos (análise de dependências)
 - [x] Sugestões de arquitetura (estrutura de documentação)
-- [x] Priorização baseada em valor (IA sugeriu foco em documentação primeiro)
-- [x] Geração de sprint goal coeso
 - [ ] Outros: -
 
----
-
-## 📅 Sprint Timeline
-
-**Sprint 01: 12/02/2026 - 25/02/2026**
-
-### Semana 1 (12-18 Fev)
-- Dia 1-2: US-007 (Template Bug Report) - baixa complexidade, rápido
-- Dia 3-4: US-001 (Quick Start Guide) - base para outras docs
-- Dia 5: Review e ajustes com feedback inicial
-
-### Semana 2 (19-25 Fev)
-- Dia 6-9: US-002 (Documentar Workflows) - mais complexa
-- Dia 10: Finalização, validação e DoD
-
----
-
-## 🎯 Métricas de Sucesso
-
-Além do DoD, vamos medir:
-- [ ] Tempo médio para novo usuário completar quick start (meta: < 10 min)
-- [ ] Número de links quebrados (meta: 0)
-- [ ] Cobertura de workflows documentados (meta: 100% dos 5 workflows)
-- [ ] Feedback qualitativo do usuário teste (meta: positivo)
-
----
-
-**Assinaturas:**
-- **Product Owner (Moises):** ✅ Aprovado
-- **Development Team (AI):** ✅ Comprometido
-- **Data:** 12/02/2026
