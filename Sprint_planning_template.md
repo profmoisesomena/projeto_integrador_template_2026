@@ -1,8 +1,8 @@
 # Sprint Planning - Sprint 01
 
 **Data:** 12/02/2026  
-**Participantes:** Moises (Product Owner),(Development Team)  
-**Sprint Duration:** 2 semanas (10 dias úteis)  
+**Participantes:** Facilitador (Scrum Master),(Development Team)  
+**Sprint Duration:** 1 semanas (5 dias úteis)  
 **Sprint Goal:** Criar documentação fundamental que permita desenvolvimento do projeto
 ---
 
