@@ -36,7 +36,7 @@
 
 ### [US-001] Criar documentação de quick start do projeto
 - **Prioridade:** Alta
-- **Story Points:** 5
+- **Story Points:** 4
 - **Assignee:** Time de Desenvolvimento
 - **Epic:** EPIC-001 - Documentação e Guias de Uso
 - **Critérios de Aceitação:**
@@ -54,7 +54,7 @@
 
 ### [US-002] Documentar workflows com exemplos práticos
 - **Prioridade:** Alta
-- **Story Points:** 8
+- **Story Points:** 5
 - **Assignee:** Time de desenvolvimento
 - **Epic:** EPIC-001 - Documentação de cada workflow
 - **Critérios de Aceitação:**
@@ -75,7 +75,7 @@
 
 ### [US-007] Revisar e atualizar backlog do projeto para desenvolvimento
 - **Prioridade:** Alta 
-- **Story Points:** 3
+- **Story Points:** 7
 - **Assignee:** Time de desenvolvimento
 - **Epic:** EPIC-002 - Templates Avançados
 - **Critérios de Aceitação:**
