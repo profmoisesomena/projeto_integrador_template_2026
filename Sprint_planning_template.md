@@ -28,7 +28,7 @@
 
 ## 🎯 Sprint Goal
 
-> Estabelecer a base de documentação necessária para que desenvolvedores possam adotar e utilizar os templates Agile AI de forma efetiva, incluindo guia de início rápido, exemplos práticos de workflows, e template de bug report para completar o conjunto básico.
+> Estabelecer a base de documentação necessária para que desenvolvedores possam adotar e utilizar os templates Agile de forma efetiva, incluindo guia de início rápido e exemplos práticos de workflows.
 
 ---
 
@@ -43,12 +43,12 @@
   - [ ] Guia cobre instalação e setup inicial para desenvolvimento (Softwares e ferramentas necessários)
   - [ ] Inclui primeiro exemplo de fluxo de telas principal (workflow)
   - [ ] Possui links para documentação detalhada e no Readme do projeto
-  - [ ] Adição de todos usuários no repositório projeto e no kanban de acompanhamento
+  - [ ] Adição de todos usuários no repositório projeto e no kanban de acompanhamento (adicionar o usuário profmoisesomena visando acompanhamento quando necessário)
   - [ ] Formatação visualmente organizada e seções claras
 
 **Notas técnicas:**
 - Deve ser o ponto de entrada principal no README
-- Incluir comandos copy-paste para agilizar
+
 
 ---
 
@@ -62,6 +62,8 @@
   - [ ] Use de arquivos do tipo .md para criar e explicar o fluxo adicionando as imagens
   - [ ] Links para templates, figma e documentos relacionados ao fluxo específico
   - [ ] Exemplos mostram possíveis problemas no fluxo esperado (falta de validação dos dados, usuário escolha o fluxo de páginas acessadas, etc)
+  - [ ] Entrega do fluxo principal validado pelo grupo
+  - [ ] Apresentação para o professor validar Fluxo e Desenvolvimento.
 
 **Notas técnicas:**
 - Criar um documento separado para cada workflow principal
@@ -73,7 +75,7 @@
 
 ---
 
-### [US-007] Revisar e atualizar backlog do projeto para desenvolvimento
+### [US-003] Revisar e atualizar backlog do projeto para desenvolvimento
 - **Prioridade:** Alta 
 - **Story Points:** 7
 - **Assignee:** Time de desenvolvimento
@@ -124,25 +126,20 @@
 ### Decisões Tomadas
 - **Formato da documentação:** Markdown puro para máxima compatibilidade
 - **Estrutura:** Quick start separado de documentação detalhada
-- **Exemplos:** Focar em casos de uso reais (autenticação, CRUD, etc.)
-- **US-007 justificativa:** Incluído para completar conjunto básico de templates, permitindo feedback completo
 
 ### Action Items
-- [ ] Identificar usuário voluntário para testar documentação (até 14/02)
-- [ ] Revisar templates existentes para garantir consistência (até 15/02)
-- [ ] Definir padrão de formatação para exemplos (até 13/02)
+- [ ] Identificar usuário voluntário para testar documentação (até 04/03)
+- [ ] Revisar templates existentes para garantir consistência (até 15/03)
 
-### Discussões Importantes
-- **Sobre vídeos tutoriais (US-003):** Decidimos não incluir na Sprint 01 pois documentação escrita é prioridade. Vídeo pode ser criado em sprint futura baseado na documentação.
-- **Sobre idioma:** Manter tudo em português brasileiro por enquanto. Internacionalização pode ser considerada no futuro.
 
 ---
 
-## 🤖 Assistência IA (opcional)
+## 🤖 Sugestão de Assistência IA (opcional)
 
-- [x] Refinamento de user stories (critérios de aceitação validados com IA)
-- [x] Estimativa de complexidade (validada com IA)
-- [x] Identificação de riscos técnicos (análise de dependências)
-- [x] Sugestões de arquitetura (estrutura de documentação)
+- [ ] Refinamento de user stories (critérios de aceitação validados com IA)
+- [ ] Estimativa de complexidade (validada com IA)
+- [ ] Identificação de riscos técnicos (avaliar quantidade de telas)
+- [ ] Sugestões de arquitetura (estrutura de documentação)
+- [ ]
 - [ ] Outros: -
 
